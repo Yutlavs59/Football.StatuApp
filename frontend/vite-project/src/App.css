@@ -1,0 +1,96 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+.match-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.match-container {
+  background: #f8f8f8;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.date-text {
+  font-size: 14px;
+  color: #666;
+}
+
+/* 🔽 中央揃えを統一 */
+.team-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* 均等配置 */
+  gap: 10px;
+}
+
+/* 🔽 各チームのスタイル */
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100px; /* 幅を統一 */
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.team-name {
+  font-size: 14px;
+  text-align: center;
+}
+
+/* 🔽 VSやスコアの位置を中央に固定 */
+.score-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  min-width: 50px; /* 幅を固定して揃える */
+  text-align: center;
+}
+
+.predict-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.predict-buttons button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+}
+
+.predict-buttons button:hover {
+  background: #0056b3;
+}
+
+.all {
+  width: 100vw;
+  align-items: center;
+  background-color: #333;
+}
